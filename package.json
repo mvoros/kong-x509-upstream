@@ -1,0 +1,20 @@
+{
+	"name": "kong-cert-upstream",
+	"version": "0.1.0",
+	"description": "Kong JS Plugin for generating x509 certs for upstream system",
+	"scripts": {
+		"format": "npx prettier --write ."
+	},
+	"author": "Martin Voros",
+	"license": "Apache-2.0",
+	"licenses": [
+		{
+			"type": "Apache-2.0",
+			"url": "http://www.apache.org/licenses/LICENSE-2.0"
+		}
+	],
+	"dependencies": {
+		"node-forge": "^1.2.1",
+		"prettier": "^2.5.1"
+	}
+}
